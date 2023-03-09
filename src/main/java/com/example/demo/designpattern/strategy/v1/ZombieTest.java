@@ -1,5 +1,8 @@
 package com.example.demo.designpattern.strategy.v1;
 
+/**
+ * 策略模式
+ */
 public class ZombieTest {
     public static void main(String[] args) {
         AbstractZombie zombie = new NormalZombie();
