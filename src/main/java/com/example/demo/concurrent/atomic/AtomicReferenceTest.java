@@ -1,4 +1,4 @@
-package com.example.demo.atomic;
+package com.example.demo.concurrent.atomic;
 
 import com.example.demo.entity.User;
 

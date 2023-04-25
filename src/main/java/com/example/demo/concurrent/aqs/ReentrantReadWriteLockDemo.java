@@ -1,4 +1,4 @@
-package com.example.demo.aqs;
+package com.example.demo.concurrent.aqs;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;

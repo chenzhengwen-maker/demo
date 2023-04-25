@@ -1,4 +1,4 @@
-package com.example.demo.aqs;
+package com.example.demo.concurrent.aqs;
 
 import lombok.extern.slf4j.Slf4j;
 

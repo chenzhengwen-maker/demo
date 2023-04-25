@@ -1,4 +1,4 @@
-package com.example.demo.blockqueue;
+package com.example.demo.concurrent.blockqueue;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.DelayQueue;

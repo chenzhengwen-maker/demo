@@ -1,4 +1,4 @@
-package com.example.demo.threadpool;
+package com.example.demo.concurrent.threadpool;
 
 import org.junit.jupiter.api.Test;
 

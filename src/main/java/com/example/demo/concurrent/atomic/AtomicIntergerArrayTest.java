@@ -1,4 +1,4 @@
-package com.example.demo.atomic;
+package com.example.demo.concurrent.atomic;
 
 import net.minidev.json.JSONArray;
 

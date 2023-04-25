@@ -1,6 +1,4 @@
-package com.example.demo.aqs;
-
-import lombok.SneakyThrows;
+package com.example.demo.concurrent.aqs;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package com.example.demo.threadpool;
+package com.example.demo.concurrent.threadpool;
 
 import java.util.Arrays;
 import java.util.concurrent.ForkJoinPool;

@@ -1,4 +1,4 @@
-package com.example.demo.aqs;
+package com.example.demo.concurrent.aqs;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
