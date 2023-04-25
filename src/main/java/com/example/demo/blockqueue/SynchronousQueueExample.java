@@ -69,5 +69,48 @@ public class SynchronousQueueExample {
         SynchronousQueueConsumer queueConsumer2 = new SynchronousQueueConsumer(
                 synchronousQueue);
         new Thread(queueConsumer2).start();
+        ArrayList<students> stu = new ArrayList<>();
+        stu.add(new students("rank",20));
+        stu.add(new students("Jack",16));
+        stu.add(new students("Tom",18));
+        Collections.sort(stu,(o1,o2)->{
+            return o1.getAge()-o2.getAge();
+        });
+    }
+}
+class students {
+    private String name;
+    private int age;
+
+    public students(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public students() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "students{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

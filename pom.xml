@@ -44,6 +44,11 @@
             <artifactId>redisson-spring-boot-starter</artifactId>
             <version>3.12.5</version>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.83</version>
+        </dependency>
     </dependencies>
 
     <repositories><!-- 阿里云仓库配置 -->
